@@ -1,7 +1,7 @@
 # Online Learning Management System 
 
 ## 📖 Overview  
-An ASP.NET Web Forms application for managing online learning login, registrations, and users with role-based access. <br />
+An ASP.NET Web Forms application for managing online learning login, registrations, and users with role-based access.
 IIS URL Example (my local machine server) - 
 
 ---
