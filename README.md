@@ -1,55 +1,63 @@
 # Online Learning Management System 
 
 ## 📖 Overview  
-An ASP.NET Web Forms application for managing online learning login, registrations, and users with role-based access.
+The Online Learning Management System (OLMS) is a web-based platform built using ASP.NET Web Forms (3-tier architecture) to manage online courses, students, trainers, quizzes, and enrollments.
+It provides a complete learning ecosystem where Admins can manage courses & users, Trainers can create quizzes/materials, and Students can enroll in courses, take quizzes, and track progress.
+
+This project was developed step-by-step to simulate a real-world enterprise application and demonstrate concepts of ASP.NET Web Forms, ADO.NET, stored procedures, authentication, and security.
+<br /> <br />
 IIS URL Example (my local machine server) - 
 
 ---
 <br />
 
 
-## 📘 Project Overview
-This system allows: <br />
-🔹<br />
-🔹<br />
-🔹<br />
-🔹<br />
-🔹<br />
+## 🎯 Features
+✅ Role-based modular design (Admin, Trainer, Student). <br />
+✅ Clear separation of concerns using 3-tier architecture. <br />
+✅ Secure authentication with password hashing (SHA256 + Salt). <br />
+✅ Scalable database design with stored procedures. <br />
+✅ Modern responsive UI with Bootstrap. <br />
+
+---
+<br />
+
+
+## 💡 Future Enhancements
+✅ Migrate to ASP.NET Core MVC / Blazor. <br />
+✅ Add Web API layer for mobile/React/Angular integration. <br />
+✅ Implement JWT authentication for secure API access. <br />
+✅ Add certificate generation for completed courses. <br />
+✅ Introduce payment gateway integration for paid courses. <br />
+✅ Implement email notifications (course enrollment, quiz results). <br />
+✅ Add real-time chat/communication between students and trainers. <br >
 
 ---
 <br />
 
 
 ## 🎓 Key Learnings
-🔹Practical application of 3-tier architecture concepts in ASP.NET Web Forms. <br />
-🔹Managing state and security in Web Forms applications using sessions and role-based UI. <br />
-🔹Working with ADO.NET for database connectivity and operations. <br />
-🔹Using Bootstrap to create responsive, user-friendly interfaces. <br />
-🔹Understanding IIS configuration, application pool identities, and deployment best practices. <br />
-🔹Troubleshooting common permission and authentication issues in a Windows Server/IIS environment. <br />
+✅ Fundamentals of ASP.NET Web Forms (Master Pages, User Controls, State Management). <br />
+✅ 3-tier architecture and clean separation of UI, Business logic, and Data access layers. <br />
+✅ ADO.NET (SqlConnection, SqlCommand, SqlDataAdapter, DataReader, Stored Procedures). <br />
+✅ Database design (tables, keys, constraints, relationships, stored procs). <br />
+✅ Secure authentication with password hashing. <br />
+✅ Scalable database design with stored procedures. <br />
+✅ Modern responsive UI with Bootstrap. <br />
+✅ IIS configuration, application pool identities, and deployment best practices. <br />
+✅ Troubleshooting common permission and authentication issues in a Windows Server/IIS environment. 
 
 ---
 <br />
 
 
-## 🛠 Technology used
-🔹ASP.NET Web Forms (.NET Framework 4.7.2) <br />
-🔹C# <br />
-🔹SQL Server (Database: WorkshopDB) <br />
-🔹ADO.NET for data access <br />
-🔹Bootstrap 4 for responsive UI <br />
-🔹IIS for local hosting and deployment <br />
-
----
-<br />
-
-
-## 🚀 Features  
-✅ <br />
-✅ <br />
-✅ <br />
-✅ <br />
-✅ <br />
+## ⚡Technology used
+✅ Frontend: ASP.NET Web Forms, Bootstrap, CSS <br />
+✅ Backend: C#, ADO.NET <br />
+✅ Database: SQL Server (Stored Procedures) <br />
+✅ Architecture: 3-tier (UI, BLL, DAL, Model) <br />
+✅ Security: Password hashing (SHA256), role-based access <br />
+✅ Visual Studio 2022, SSMS, IIS <br />
 
 ---
 <br />
@@ -59,34 +67,59 @@ This system allows: <br />
 ```
 OnlineLearningManagementSystem.sln
 │
-├── OnlineLearningManagementSystem.UI  (ASP.NET Web Forms)
-│   ├── Admin
-│   │    ├── AdminMasterPage.Master
-│   │    ├── Home.aspx
-│   │    ├── Course.aspx
-│   │    ├── Instructor.aspx
-│   │    ├── Student.aspx
-│   │    ├── Material.aspx
-│   │    ├── Approval.aspx
-│   ├── Student 
-│   │    ├── StudentMasterPage.Master
-│   │    ├── Home.aspx
-│   │    ├── MyCourses.aspx
-│   │    ├── Materials.aspx
-│   │    ├── Exams.aspx
-│   │    ├── Results.aspx
-│   ├── Common
+├── OLMS.UI  (ASP.NET Web Forms)
+│   ├── Account\
 │   │    ├── Login.aspx
 │   │    ├── Register.aspx
-│   │    ├── ChangePassword.aspx
-│   ├── CSS
-│   ├── Images
+│   │   
+│   ├── Admin\
+│   │    ├── AddQuiz.aspx
+│   │    ├── Approval.aspx
+│   │    ├── Course.aspx
+│   │    ├── Enrollment.aspx
+│   │    ├── Lesson.aspx
+│   │    ├── Material.aspx
+│   │    ├── Module.aspx
+│   │    ├── Reports.aspx
+│   │    ├── Student.aspx
+│   │    ├── Trainer.aspx
+│   │    ├── User.aspx
+│   │    ├── Workshop.aspx
+│   │
+│   ├── Courses\
+│   │    ├── CourseDetail.aspx
+│   │    ├── CourseList.aspx
+│   │
+│   ├── CSS\
+│   ├── Images\
+│   ├── JS\
+│   ├── Images\
+│   ├──
+│   ├── MasterPages\
+│   │    ├── Site.Master
+│   │
+│   ├── Scripts\
+│   ├── Student\
+│   │    ├── TakeQuiz.aspx
+│   │
+│   ├── Trainer\
+│   │    ├── AddTrainer.aspx
+│   ├──
+│   ├── Default.aspx
+│   ├── Global.asax
+│   ├── Web.config
 │
-├── OnlineLearningManagementSystem.BLL   (Class Library) - Business Logic Layer
+├── OLMS.Models (Class Library) - Models / Entities
+│   ├── Common\
+│   ├── Entities\ ()POCO classes for all db tables
 │
-├── OnlineLearningManagementSystem.Models (Class Library) - Models / Entities
-│
-├── OnlineLearningManagementSystem.DAL    (Class Library) - Data Access Layer
+├── OLMS.DAL    (Class Library) - Data Access Layer
+│   ├── Interfaces\
+│   ├── Repositories\
+|
+├── OLMS.BLL   (Class Library) - Business Logic Layer
+│   ├── Helpers\
+│   ├── Services\
 
 ```
 
@@ -95,26 +128,17 @@ OnlineLearningManagementSystem.sln
 
 
 
-## 💡 Future Enhancements
-🔹<br />
-🔹<br />
-🔹<br />
-🔹<br />
-🔹<br />
-
----
-<br />
 
 
 
 ## ▶️ How to run the project ?
-1️⃣ Clone the Repository - <b>git clone https://github.com/Sachin-4-5/online-learning-management-system.git</b> <br />
+1️⃣ Clone the Repository - <b>git clone https://github.com/Sachin-4-5/Online_Learning_Management_System.git</b> <br />
 2️⃣ Execute the provided SQL script to create OLMSDB with necessary tables and seed data. <br>
 3️⃣ Open OnlineLearningManagementSystem.sln in Visual Studio (recommended version: 2017 or later). <br />
 4️⃣ Update the connection string in web.config with your SQL Server instance details and authentication mode. <br />
 5️⃣ Set the UI project as the startup project. <br >
 6️⃣ Build the entire solution to restore DLL references. <br />
-7️⃣ Publish the OnlineLearningManagementSystem.UI project to a local folder (e.g., C:\inetpub\wwwroot\OnlineLearningManagementSystem). <br />
+7️⃣ Publish the OLMS.UI project to a local folder (e.g., C:\inetpub\wwwroot\OnlineLearningManagementSystem). <br />
 8️⃣ Press F5 or click Start to run the application through VS built-in IIS Server. <b>or</b> <br />
 9️⃣ IIS Setup: <br />
     🔹Create a new site in IIS pointing to the published folder. <br />
@@ -139,16 +163,3 @@ Pull requests are welcome! To contribute:
 ---
 <br />
 <br />
-
-
-
-
-
-
-
-
-
-
-
-
-
