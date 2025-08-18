@@ -63,6 +63,23 @@ IIS URL Example (my local machine server) -
 <br />
 
 
+## 🎓 Project Plan:
+```
+step-1: Project & environment setup (Solution + Projects, references)
+step-2: Database creation & seed data.
+step-3: Adding model classes for each tables. (POCO classes)
+step-4: DAL: DbHelper + (Interface & Repository) skeletons.
+step-5: BLL: Services, Authentication, Business rules.
+step-6: UI: MasterPage + Register/Login + course listing (responsive Bootstrap).
+step-7: Admin pages: manage courses (CRUD), secure by role.
+step-8: Advanced: file storage, quiz engine, AJAX partial updates, charts, reports, email notifications.
+step-9: Deploy to IIS and secure (production checklist).
+
+```
+---
+<br />
+
+
 ## 🎓 Project structure
 ```
 OnlineLearningManagementSystem.sln
