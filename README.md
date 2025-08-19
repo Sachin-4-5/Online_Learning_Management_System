@@ -6,7 +6,7 @@ It provides a complete learning ecosystem where Admins can manage courses & user
 
 This project was developed step-by-step to simulate a real-world enterprise application and demonstrate concepts of ASP.NET Web Forms, ADO.NET, stored procedures, authentication, and security.
 <br /> <br />
-IIS URL Example (my local machine server) - 
+IIS URL Example (my local machine server) - http://localhost:8880/
 
 ---
 <br />
@@ -59,7 +59,7 @@ IIS URL Example (my local machine server) -
 ✅ Backend: C#, ADO.NET <br />
 ✅ Database: SQL Server (Stored Procedures) <br />
 ✅ Architecture: 3-tier (UI, BLL, DAL, Model) <br />
-✅ Security: Password hashing (SHA256), role-based access <br />
+✅ Security: Password hashing (SHA256), SMTP, role-based access <br />
 ✅ Visual Studio 2022, SSMS, IIS <br />
 
 ---
