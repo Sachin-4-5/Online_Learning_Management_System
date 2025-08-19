@@ -18,6 +18,10 @@ IIS URL Example (my local machine server) -
 ✅ Secure authentication with password hashing (SHA256 + Salt). <br />
 ✅ Scalable database design with stored procedures. <br />
 ✅ Modern responsive UI with Bootstrap. <br />
+✅ Robust exception handling with user-friendly error pages. <br />
+✅ Automated email notifications for workshop updates. <br />
+✅ Secure file upload with validation and structured storage. <br />
+✅ Centralized logging & activity tracking for security and auditing (e.g., log4net, NLog, or custom logger). <br />
 
 ---
 <br />
@@ -29,7 +33,6 @@ IIS URL Example (my local machine server) -
 ✅ Implement JWT authentication for secure API access. <br />
 ✅ Add certificate generation for completed courses. <br />
 ✅ Introduce payment gateway integration for paid courses. <br />
-✅ Implement email notifications (course enrollment, quiz results). <br />
 ✅ Add real-time chat/communication between students and trainers. <br >
 
 ---
