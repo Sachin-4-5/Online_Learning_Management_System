@@ -54,7 +54,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## ⚡Technology used
+## ⚡Technology Used
 ✅ Frontend: ASP.NET Web Forms, Bootstrap, CSS <br />
 ✅ Backend: C#, ADO.NET <br />
 ✅ Database: SQL Server (Stored Procedures) <br />
@@ -83,7 +83,7 @@ step-9: Deploy to IIS and secure (production checklist).
 <br />
 
 
-## 🎓 Project structure
+## 🎓 Project Structure
 ```
 OnlineLearningManagementSystem.sln
 │
@@ -147,8 +147,14 @@ OnlineLearningManagementSystem.sln
 <br />
 
 
+## 📷 UI Screenshots
+![Landing Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Landing%20Page.png)
+![Admin Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Admin%20Page.png)
+![Trainer Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Trainer%20Page.png)
+![Student Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Student%20Page.png)
 
-
+---
+<br />
 
 
 ## ▶️ How to run the project ?
