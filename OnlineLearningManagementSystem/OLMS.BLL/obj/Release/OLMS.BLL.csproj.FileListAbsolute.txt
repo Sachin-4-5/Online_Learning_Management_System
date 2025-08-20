@@ -1,0 +1,11 @@
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.BLL.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.BLL.pdb
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.DAL.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.Models.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.DAL.pdb
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\bin\Release\OLMS.Models.pdb
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\obj\Release\OLMS.BLL.csproj.AssemblyReference.cache
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\obj\Release\OLMS.BLL.csproj.CoreCompileInputs.cache
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\obj\Release\OLMS.BLL.csproj.Up2Date
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\obj\Release\OLMS.BLL.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.BLL\obj\Release\OLMS.BLL.pdb

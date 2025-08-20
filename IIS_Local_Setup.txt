@@ -1,0 +1,43 @@
+* Steps for configuring IIS in local
+------------------------------------
+
+1. Go to C:\inetpub\wwwroot and create folder with name OnlineLearningManagementSystem
+2. Go to Local_project_path\OLMS.UI\Publish (Create folder with name Publish)
+2. Open .sln in VS-2022
+3. Right click on OLMS.UI --> click Publish --> click Folder --> Select above created Publish\ folder.	--> click Publish.
+4. Copy content of publish folder and paste inside C:\inetpub\wwwroot\OnlineLearningManagementSystem\
+5. Open IIS --> Right click on Sites --> Add Website --> 
+	Site Name: OnlineLearningManagementSystem
+	Physiacl Path: C:\inetpub\wwwroot\OnlineLearningManagementSystem
+	Change any port no: 8880
+	
+	Also check IIS Pool is created with same name.
+	
+6. Steps to Grant Folder Access to IIS App Pool Identity
+	. Go to the folder your app uses - C:\inetpub\wwwroot\OnlineLearningManagementSystem).
+	. Right-click → Properties → Security tab.
+	. Click Edit → Add → Locations → select your local machine.
+	. In the object name box, type: IIS APPPOOL\OnlineLearningManagementSystem
+	. Once added, select it and give permissions: Read & Execute → always required.
+	. Modify / Write → required if your app saves uploads, logs, or temp files.
+	. Click Apply → OK.
+	
+7. Run below script in Db to give access permission:
+
+	USE [master];
+	CREATE LOGIN [IIS APPPOOL\OnlineLearningManagementSystem] FROM WINDOWS;
+	GO
+	
+	-- Access for INSET, UPDATE, DELETE, SELECT
+	USE OLMSDB;
+	CREATE USER [IIS APPPOOL\OnlineLearningManagementSystem] FOR LOGIN [IIS APPPOOL\OnlineLearningManagementSystem];
+	ALTER ROLE db_datareader ADD MEMBER [IIS APPPOOL\OnlineLearningManagementSystem];
+	ALTER ROLE db_datawriter ADD MEMBER [IIS APPPOOL\OnlineLearningManagementSystem];
+	GO
+	
+	-- Access for Stored Procedures
+	USE OLMSDB;
+	GRANT EXECUTE TO [IIS APPPOOL\OnlineLearningManagementSystem];
+	
+	
+	...

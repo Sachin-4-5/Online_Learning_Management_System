@@ -1,0 +1,9 @@
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\bin\Debug\OLMS.DAL.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\bin\Debug\OLMS.DAL.pdb
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\bin\Debug\OLMS.Models.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\bin\Debug\OLMS.Models.pdb
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\obj\Debug\OLMS.DAL.csproj.AssemblyReference.cache
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\obj\Debug\OLMS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\obj\Debug\OLMS.DAL.csproj.Up2Date
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\obj\Debug\OLMS.DAL.dll
+C:\Users\pr667\OneDrive\Desktop\Projects\ASP.NET Web From - 2\OnlineLearningManagementSystem\OLMS.DAL\obj\Debug\OLMS.DAL.pdb
