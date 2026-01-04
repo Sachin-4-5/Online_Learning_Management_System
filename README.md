@@ -1,6 +1,6 @@
-# Online Learning Management System 
+## Online Learning Management System 
 
-## 📖 Overview  
+### 📘 Overview  
 The Online Learning Management System (OLMS) is a web-based platform built using ASP.NET Web Forms (3-tier architecture) to manage online courses, students, trainers, quizzes, and enrollments.
 It provides a complete learning ecosystem where Admins can manage courses & users, Trainers can create quizzes/materials, and Students can enroll in courses, take quizzes, and track progress.
 
@@ -12,7 +12,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## 🎯 Features
+### 🎯 Features
 ✅ Role-based modular design (Admin, Trainer, Student). <br />
 ✅ Clear separation of concerns using 3-tier architecture. <br />
 ✅ Secure authentication with password hashing (SHA256 + Salt). <br />
@@ -27,7 +27,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## 💡 Future Enhancements
+### 💡 Future Enhancements
 ✅ Migrate to ASP.NET Core MVC / Blazor. <br />
 ✅ Add Web API layer for mobile/React/Angular integration. <br />
 ✅ Implement JWT authentication for secure API access. <br />
@@ -39,7 +39,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## 🎓 Key Learnings
+### 🎓 Key Learnings
 ✅ Fundamentals of ASP.NET Web Forms (Master Pages, User Controls, State Management). <br />
 ✅ 3-tier architecture and clean separation of UI, Business logic, and Data access layers. <br />
 ✅ ADO.NET (SqlConnection, SqlCommand, SqlDataAdapter, DataReader, Stored Procedures). <br />
@@ -54,7 +54,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## ⚡Technology Used
+### ⚡Technology Used
 ✅ Frontend: ASP.NET Web Forms, Bootstrap, CSS <br />
 ✅ Backend: C#, ADO.NET <br />
 ✅ Database: SQL Server (Stored Procedures) <br />
@@ -66,7 +66,7 @@ IIS URL Example (my local machine server) - http://localhost:8880/
 <br />
 
 
-## 🎓 Project Plan:
+### 🎓 Project Plan:
 ```
 step-1: Project & environment setup (Solution + Projects, references)
 step-2: Database creation & seed data.
@@ -83,7 +83,7 @@ step-9: Deploy to IIS and secure (production checklist).
 <br />
 
 
-## 🎓 Project Structure
+### 📁 Project Structure
 ```
 OnlineLearningManagementSystem.sln
 │
@@ -147,7 +147,7 @@ OnlineLearningManagementSystem.sln
 <br />
 
 
-## 📷 UI Screenshots
+### 📷 UI Screenshots
 ![Landing Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Landing%20Page.png)
 ![Admin Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Admin%20Page.png)
 ![Trainer Page](https://github.com/Sachin-4-5/Online_Learning_Management_System/blob/main/Output%20Images/Trainer%20Page.png)
@@ -157,7 +157,7 @@ OnlineLearningManagementSystem.sln
 <br />
 
 
-## ▶️ How to run the project ?
+### ▶️ How to run the project ?
 1️⃣ Clone the Repository - <b>git clone https://github.com/Sachin-4-5/Online_Learning_Management_System.git</b> <br />
 2️⃣ Execute the provided SQL script to create OLMSDB with necessary tables and seed data. <br>
 3️⃣ Open OnlineLearningManagementSystem.sln in Visual Studio (recommended version: 2017 or later). <br />
@@ -177,7 +177,7 @@ OnlineLearningManagementSystem.sln
 
 
 
-## 🤝 Contribution
+### 🤝 Contribution
 Pull requests are welcome! To contribute:
 
 1️⃣ Fork the repo <br />
@@ -189,3 +189,11 @@ Pull requests are welcome! To contribute:
 ---
 <br />
 <br />
+
+
+
+
+
+
+
+
