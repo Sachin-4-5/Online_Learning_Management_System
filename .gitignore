@@ -1,0 +1,6 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Visual Studio user specific configuration
+.vs/
